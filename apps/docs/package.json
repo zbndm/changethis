@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start ",
     "dev": "next dev -p 3002",
-    "lint": "TIMING=1 next lint",
+    "lint": "set TIMING=1 && next lint",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
@@ -18,10 +18,10 @@
   },
   "devDependencies": {
     "@acme/tsconfig": "workspace:*",
-    "@types/node": "^17.0.12",
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
+    "@types/node": "^17.0.45",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
     "eslint-config-acme": "workspace:*",
-    "typescript": "^4.5.4"
+    "typescript": "^4.9.5"
   }
 }
